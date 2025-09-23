@@ -10,11 +10,11 @@ A comprehensive machine learning project designed to accurately classify news ar
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.12.2-lightblue)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-## 📖 Project Overview
+## Project Overview
 
 In today's digital age, the rapid spread of misinformation poses a significant challenge. This project addresses the problem of fake news by implementing a machine learning solution that can automatically classify news articles as genuine or fraudulent. The system processes raw text data through advanced NLP techniques and employs multiple classification algorithms to achieve high accuracy in detection.
 
-## 📊 Dataset
+## Dataset
 
 The model is trained on a widely-used benchmark dataset consisting of two categories:
 
@@ -26,7 +26,9 @@ The model is trained on a widely-used benchmark dataset consisting of two catego
 - Real News: 21,417 articles
 - Fake News: 23,481 articles
 
-## 🛠️ Technical Implementation
+**For more info:** https://www.kaggle.com/datasets/jainpooja/fake-news-detection/data
+
+## Technical Implementation
 
 ### Data Preprocessing Pipeline
 
@@ -67,7 +69,7 @@ The project implements and compares five classification algorithms:
 - Classification Reports
 - Confusion Matrices
 
-## 📈 Performance Results
+## Performance Results
 
 The models achieved exceptional performance, with tree-based ensembles demonstrating the best results:
 
@@ -81,7 +83,7 @@ The models achieved exceptional performance, with tree-based ensembles demonstra
 
 **Key Insight:** Ensemble methods (XGBoost and Random Forest) outperformed other classifiers, achieving remarkable accuracy exceeding **99.7%**, demonstrating their effectiveness for this classification task.
 
-## 🚀 Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 
